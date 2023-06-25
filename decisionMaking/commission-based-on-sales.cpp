@@ -24,6 +24,7 @@ int main() {
     commissionOfSale = sales * commission20;
     percentagesCommission = 20;
   }
+  
   cout << "Percentages of commission: " << percentagesCommission << "%" << endl
        << "Total commission of the sales: $" << commissionOfSale;
 

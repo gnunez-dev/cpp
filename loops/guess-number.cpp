@@ -3,13 +3,12 @@
 using namespace std;
 
 int main() {
-  short secretNum = 9;
-
-  short num;
+  short secret = 9;
+  short guess;
   
-  while(secretNum != num){
+  while(secretNum != guess){
     cout << "Guess a number: ";
-    cin >> num;
+    cin >> guess;
   }
 
   return 0;

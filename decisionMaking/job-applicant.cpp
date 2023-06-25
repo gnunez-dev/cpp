@@ -10,8 +10,8 @@ using namespace std;
 int main() {
   bool isUsCitizen = false;
   bool hasBachelorDegree = true;
-  int yearOfExperience = 10;
-  const int leastYearsOfExperience = 2;
+  short yearOfExperience = 10;
+  const short leastYearsOfExperience = 2;
 
   bool isEligible = isUsCitizen && (hasBachelorDegree || yearOfExperience >= leastYearsOfExperience);
 

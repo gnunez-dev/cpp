@@ -3,7 +3,8 @@ using namespace std;
 
 int main() {
   
-  cout << "";
+  const int x = 10;
+  const int* const ptr = &x;
 
   return 0;
 }

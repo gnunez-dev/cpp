@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//you can use &references instead of pointers
 void swap(int* first, int* second){
   int temp = *first;
   *first = *second;
